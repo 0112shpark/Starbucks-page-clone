@@ -10,7 +10,7 @@
 
 # :bell: Visit the site
 
-➡️ [<u>Go to Site</u>](https://my-starbucks-clone-proj.netlify.app/ "Open page")
+➡️ [<u>Go to Site</u>](https://my-starbucks-clone-proj1.netlify.app/ "Open page")
 
 ## 🧐 About
 
@@ -88,8 +88,14 @@ Set the preference information when using Social network.
 
 **_KakaoTalk_**
 
-</div>
+<img width= "250" src = "./images/kakaotalk.jpg" alt = "kakaotalk image"><br>
 
+**_Discord_**
+
+<img width= "500" src = "./images/discord.jpg" alt = "discord image">
+
+</div>
+<br>
 ⬇️ Following codes are used in my project. ⬇️
 
 ```html
@@ -103,7 +109,7 @@ Set the preference information when using Social network.
 <meta property="og:image" content="./images/starbucks_seo.jpg" />
 <meta
   property="og:url"
-  content="https://my-starbucks-clone-proj.netlify.app/"
+  content="https://my-starbucks-clone-proj1.netlify.app/"
 />
 ```
 
@@ -133,7 +139,7 @@ Twitter card is similar with Open Graph Protocol, but it's used when using Twitt
 <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
 <meta
   property="twitter:url"
-  content="https://my-starbucks-clone-proj.netlify.app/"
+  content="https://my-starbucks-clone-proj1.netlify.app/"
 />
 ```
 
