@@ -10,7 +10,7 @@
 
 # :bell: Visit the site
 
-➡️ [Go to Site]( "Open page")
+➡️ [<u>Go to Site</u>](https://my-starbucks-clone-proj.netlify.app/ "Open page")
 
 ## 🧐 About
 
@@ -18,7 +18,7 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 
 ## 💡Features
 
-## 📑 Notes
+## 📑 Initial Settings
 
 <h3>🔥Favicon(favorite icon)</h3>
 
@@ -77,6 +77,72 @@ Just copy the following code and paste it! 😆
   href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
 />
 ```
+
+<h3>🔥Open Graph Protocol</h3>
+
+---
+
+Set the preference information when using Social network.
+
+<div align = "center">
+
+**_KakaoTalk_**
+
+</div>
+
+⬇️ Following codes are used in my project. ⬇️
+
+```html
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Starbucks" />
+<meta property="og:title" content="Starbucks Coffee Korea" />
+<meta
+  property="og:description"
+  content="More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more."
+/>
+<meta property="og:image" content="./images/starbucks_seo.jpg" />
+<meta
+  property="og:url"
+  content="https://my-starbucks-clone-proj.netlify.app/"
+/>
+```
+
+- `og:type` : Type of page (Ex: `website`, `video.movie`)
+- `og:site_name` : Name of the page it belongs to
+- `og:title` : Title of the pate
+- `og:description` : Simple description of the page
+- `og:image` : Path of the page's representative icon
+- `og:url` : URL of the page
+
+<br>🐤<strong>Twitter Card</strong>
+
+---
+
+Twitter card is similar with Open Graph Protocol, but it's used when using Twitter.
+
+⬇️ Codes for Twitter Card in my project. ⬇️
+
+```html
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="Starbucks" />
+<meta property="twitter:title" content="Starbucks Coffee Korea" />
+<meta
+  property="twitter:description"
+  content="More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more."
+/>
+<meta property="twitter:image" content="./images/starbucks_seo.jpg" />
+<meta
+  property="twitter:url"
+  content="https://my-starbucks-clone-proj.netlify.app/"
+/>
+```
+
+- `twitter:card` : Type of page(card) (Ex: `summary`, `player`)
+- `twitter:site` : Name of the page it belongs to
+- `twitter:title` : Title of the page
+- `twitter:description` : Simple description of the page
+- `twitter:image` : Path of the page's representative icon
+- `twitter:url` : URL of the page
 
 ## ⛏️Built with
 
