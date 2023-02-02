@@ -1,10 +1,14 @@
-# ☕ STARBUCKS Main page Clone
+# ☕ STARBUCKS Main page Clone Project
+
+<div align="center">
+<img width=" 100px" height=100px src ="./images/markdown_logo.png" alt = "logo">
+</div>
 
 ---
 
 # :bell: Visit the site
 
-[Go to Site]( "Open page")
+➡️ [Go to Site]( "Open page")
 
 ## 🧐 About
 
@@ -21,12 +25,13 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 Favicon is a logo that represents the page.  
 It can be found next to Web Page title on 'tab'.
 
-❓<strong>How ways to use favicon </strong>❓
+❓<strong>How to use favicon </strong>❓
 
 - `favicon.ico`
 - `favicon.png`
 - `favicon.png` provides better quality.
-  > All favicon file should be at root directory!
+
+> All favicon file should be at root directory!
 
 ⚡Use `favicon.ico`
 
@@ -42,10 +47,34 @@ It can be found next to Web Page title on 'tab'.
 2. Add following codes at `head` tag.
 
 ```html
-<link rel="icon" href="./favicon.png" />
+<link rel="icon" href="./favicon.png" type="image/x-icon" />
 ```
 
 <img src = "./favicon.png" alt = "Starbucks" width = 200 />
+
+<h3>🔥Reset-CSS</h3>
+
+---
+
+Reset the Browser's CSS style for Cross Browsing.
+
+🎯 <strong>Steps</strong> 🎯
+
+1. Go to web site for reset-css.
+   > [reset-css](https://www.jsdelivr.com/package/npm/reset-css)
+2. Copy HTML code.
+3. Paste at `head` tag.
+
+  <h3>OR</h3>
+
+Just copy the following code and paste it! 😆
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+/>
+```
 
 ## ⛏️Built with
 
