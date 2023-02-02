@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/49dd7362-65d3-4846-9805-dfe4c9a0b4a1/deploy-status)](https://app.netlify.com/sites/my-starbucks-clone-proj/deploys)
+
 # ☕ STARBUCKS Main page Clone Project
 
 <div align="center">
