@@ -150,6 +150,68 @@ Twitter card is similar with Open Graph Protocol, but it's used when using Twitt
 - `twitter:image` : Path of the page's representative icon
 - `twitter:url` : URL of the page
 
+<h3>🔥Google Fonts and Material Icons</h3>
+
+---
+
+⭐ Following Fonts are used in this project.
+
+- `Nanum Gothic`: Regular 400, Bold 700
+
+🎯 <strong>Steps</strong> 🎯
+
+1. Go to Google Font Site.
+   > [Google Font](https://fonts.google.com/ "Google Font")
+2. Search for `Nanum Gothic`.
+3. Add `Regular 400` and `Bold 700`.
+4. Copy the `link` section and paste in `head` tag.
+   > `link` tag should be inserted before `css link` tag!
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+```
+
+5. copy `css rules` and paste in `body` tag selector in css file.
+
+```css
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+```
+
+<br>
+⭐ Using Google Meterial Icons  <br></br>
+
+> ❕Material icons are treated as `font`.
+
+🎯 <strong>Steps</strong> 🎯
+
+1. Paste Following code in `head` tag.
+   > `link` tag should be inserted before `css link` tag!
+
+```html
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+```
+
+2. Go to Google Material Icons ite.
+   > [Google Material Icons](https://fonts.google.com/icons?selected=Material+Icons "Google Material Icons")
+3. Search for Icons to use.
+4. Write code in following format.
+   > Just change the `search` part to name of icon.  
+   > Leave the class name as `material-icons`
+
+```html
+<div class="material-icons">search</div>
+```
+
 ## ⛏️Built with
 
 - <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
