@@ -35,7 +35,7 @@ It can be found next to Web Page title on 'tab'.
 
 ⚡Use `favicon.ico`
 
-1. Generate `.ico` file at <a href src=" iconifier.net">iconifier.net</a>.
+1. Generate `.ico` file at [iconifier.net](https://iconifier.net/)
 2. Place `favicon.ico` file at root directory.
 3. It will be automatically set as favicon.
 
