@@ -262,7 +262,7 @@ body {
 <h4> 📂 swiper.js </h4>
 - Provides modern sliding animation.
 
-> More info about <a href src = "https://swiperjs.com/" alt =" swiper.js">Swiper.js</a>
+> More info about [Swiper.js](https://swiperjs.com/).
 
 💧Install swiper.js from CDN
 
@@ -278,7 +278,7 @@ body {
 <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
 ```
 
-2. Go to <a href src =" https://swiperjs.com/demos">DEMO</a> section of official page and search for sliding animation to use.
+2. Go to [DEMO](https://swiperjs.com/demos) section of official page and search for sliding animation to use.
 3. Select core section to view the code.
 
 :arrow_forward: I used following functions.
