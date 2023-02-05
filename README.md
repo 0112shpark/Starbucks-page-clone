@@ -18,6 +18,11 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 
 ## 💡Features
 
+- Search icons at right top coner stretches when clicks.
+- Move to Sign in page when click Sign In section. (Not implemented yet)
+- New sections appear when mouse hovers on each main menu section.
+- Badges on right side of page gradually disappears when scroll down.
+
 ## 📑 Initial Settings
 
 <h3>🔥Favicon(favorite icon)</h3>
