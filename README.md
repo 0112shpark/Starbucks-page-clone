@@ -259,6 +259,70 @@ body {
 
 - `gsap.to(element, time, {css objects}` : give time amount animation to given css objects
 
+<h4> 📂 swiper.js </h4>
+- Provides modern sliding animation.
+
+> More info about <a href src = "https://swiperjs.com/" alt =" swiper.js">Swiper.js</a>
+
+💧Install swiper.js from CDN
+
+> ✏️ I used version 6.8.4, so the script and link codes might be different from page, which is version 9. The only difference is class name `swiper-container` and `swiper`.
+
+1. Add following codes at `head` section.
+
+```html
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+```
+
+2. Go to <a href src =" https://swiperjs.com/demos">DEMO</a> section of official page and search for sliding animation to use.
+3. Select core section to view the code.
+
+:arrow_forward: I used following functions.
+
+- <h5>HTML</h5>
+
+```html
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <a href="javascript:void(0)"
+        >크리스마스 & 연말연시 스타벅스 매장 영업시간 변경 안내</a
+      >
+    </div>
+
+    <div class="swiper-slide">
+      <a href="javascript:void(0)"
+        >[당첨자 발표] 2021 스타벅스 플래너 영수증 이벤트</a
+      >
+    </div>
+    <div class="swiper-slide">
+      <a href="javascript:void(0)"
+        >스타벅스커피 코리아 애플리케이션 버전 업데이트 안내</a
+      >
+    </div>
+    <div class="swiper-slide">
+      <a href="javascript:void(0)">[당첨자 발표] 뉴이어 전자영수증 이벤트</a>
+    </div>
+  </div>
+</div>
+```
+
+- <h5>Javascript</h5>
+
+  - Usage: `new Swiper(selector, option object)`
+
+```javascript
+new Swiper(".notice-line .swiper-container", {
+  direction: "vertical",
+  autoplay: true,
+  loop: true,
+});
+```
+
 ## ⛏️Built with
 
 - <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
