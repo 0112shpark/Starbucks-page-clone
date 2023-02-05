@@ -283,6 +283,10 @@ body {
 
 :arrow_forward: I used following functions.
 
+⚡ **_Notice section_**
+
+---
+
 - <h5>HTML</h5>
 
 ```html
@@ -322,6 +326,10 @@ new Swiper(".notice-line .swiper-container", {
   loop: true,
 });
 ```
+
+⚡ **_Promotion section_**
+
+---
 
 ## ⛏️Built with
 
