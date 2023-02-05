@@ -212,6 +212,48 @@ body {
 <div class="material-icons">search</div>
 ```
 
+## 📚 Libraries
+
+<h3> 📖 Javascript Libraries</h3>
+
+---
+
+<h4> 📂 lodash.js </h4>
+- Provides various utility functions.
+
+</br>
+
+```html
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+  integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+```
+
+:arrow_forward: I used following functions.
+
+- `_.throttle(function(){}, time);` : give time amount of delay to function.
+
+<h4> 📂 gsap.js </h4>
+- Provides various animation functions.
+
+</br>
+
+```html
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+  integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+```
+
+:arrow_forward: I used following functions.
+
+- `gsap.to(element, time, {css objects}` : give time amount animation to given css objects
+
 ## ⛏️Built with
 
 - <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
