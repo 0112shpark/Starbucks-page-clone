@@ -32,6 +32,7 @@ window.addEventListener(
         display: "none",
       });
     } else {
+      // show badge
       gsap.to(badgeEl, 0.6, {
         opacity: 1,
         display: "block",
