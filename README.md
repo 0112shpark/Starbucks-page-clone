@@ -351,7 +351,8 @@ Using this class, We can demonstrate more features using CSS.
 
 ```CSS
 .notice .promotion .swiper-slide {
-  opacity: 0.2;
+  opacity: 0.5;
+  transition: opacity 1s;
 }
 .notice .promotion .swiper-slide-active {
   opacity: 1;

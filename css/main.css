@@ -391,7 +391,8 @@ header .badges .badge {
 }
 
 .notice .promotion .swiper-slide {
-  opacity: 0.2;
+  opacity: 0.5;
+  transition: opacity 1s;
 }
 .notice .promotion .swiper-slide-active {
   opacity: 1;
