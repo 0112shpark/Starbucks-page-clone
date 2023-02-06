@@ -282,7 +282,7 @@ body {
 2. Go to [DEMO](https://swiperjs.com/demos) section of official page and search for sliding animation to use.
 3. Select core section to view the code.
 
-:arrow_forward: I used following functions.
+:arrow_forward: sections that I used swiper.js and its explanation.
 
 ⚡ **_Notice section_**
 
