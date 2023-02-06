@@ -22,6 +22,7 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 - Move to Sign in page when click Sign In section. (Not implemented yet)
 - New sections appear when mouse hovers on each main menu section.
 - Badges on right side of page gradually disappears when scroll down.
+- Sliding images and notice.
 - Toggle button.
 <div align="center">
 <img width = '300px' src ="./images/gif2.gif" alt = "pagination">
