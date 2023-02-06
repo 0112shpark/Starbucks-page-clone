@@ -497,6 +497,6 @@ header .badges .badge {
 }
 .rewards .btn-group .gift {
   margin-top: 10px;
-  /* 최대한의 width 사용, 즉 btn-group의 width 250만큼 늘어남 */
+  /* 최대한의 width 사용, 즉 btn-group의 width 250px만큼 늘어남 */
   flex-grow: 1;
 }
