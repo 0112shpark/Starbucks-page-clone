@@ -101,7 +101,8 @@ Set the preference information when using Social network.
 
 </div>
 <br>
-⬇️ Following codes are used in my project. ⬇️
+⬇️ Following codes are used in my project. ⬇️  
+<br></br>
 
 ```html
 <meta property="og:type" content="website" />
@@ -330,6 +331,47 @@ new Swiper(".notice-line .swiper-container", {
 ⚡ **_Promotion section_**
 
 ---
+
+🌱 Slide that is shown to user at that moment has extra class name `swiper-slide-active`.
+
+```html
+<div
+  class="swiper-slide swiper-slide-active"
+  data-swiper-slide-index="1"
+  role="group"
+  aria-label="2 / 5"
+  style="width: 819px; margin-right: 10px;"
+></div>
+```
+
+Using this class, We can demonstrate more features using CSS.
+
+- <h5>CSS</h5>
+  ⬇️ making only middle part of promotion section clear. ⬇️
+
+```CSS
+.notice .promotion .swiper-slide {
+  opacity: 0.2;
+}
+.notice .promotion .swiper-slide-active {
+  opacity: 1;
+}
+```
+
+- <h5>Javascript</h5>
+
+```javascript
+new Swiper(".promotion .swiper-container", {
+  slidesPerView: 3,
+  spaceBetween: 10,
+  centeredSlides: true,
+  autoplay: {
+    delay: 5000,
+  },
+  loop: true,
+  allowTouchMove: false,
+});
+```
 
 ## ⛏️Built with
 

@@ -57,3 +57,14 @@ new Swiper(".notice-line .swiper-container", {
   loop: true,
   allowTouchMove: false,
 });
+
+new Swiper(".promotion .swiper-container", {
+  slidesPerView: 3,
+  spaceBetween: 10,
+  centeredSlides: true,
+  autoplay: {
+    delay: 5000,
+  },
+  loop: true,
+  allowTouchMove: false,
+});
