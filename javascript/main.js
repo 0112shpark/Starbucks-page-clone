@@ -53,7 +53,9 @@ fadeEls.forEach(function (fadeEl, index) {
 // swiper.js
 new Swiper(".notice-line .swiper-container", {
   direction: "vertical",
-  autoplay: true,
+  autoplay: {
+    disableOnInteraction: false,
+  },
   loop: true,
   allowTouchMove: false,
 });
@@ -63,8 +65,17 @@ new Swiper(".promotion .swiper-container", {
   spaceBetween: 10,
   centeredSlides: true,
   autoplay: {
-    delay: 5000,
+    delay: 3000,
+    disableOnInteraction: false,
   },
   loop: true,
   allowTouchMove: false,
+  pagination: {
+    el: ".promotion .swiper-pagination", // page number selector
+    clickable: true,
+  },
+  navigation: {
+    prevEl: ".promotion .swiper-prev",
+    nextEl: ".promotion .swiper-next",
+  },
 });
