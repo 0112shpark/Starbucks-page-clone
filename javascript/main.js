@@ -92,3 +92,11 @@ promotionToggleBtn.addEventListener("click", function () {
     promotionEl.classList.remove("hide");
   }
 });
+
+// floating object
+
+function floatingObject(selector) {
+  gsap.to(selector, 1, {
+    y: 20, // move to y-axis
+  });
+}
