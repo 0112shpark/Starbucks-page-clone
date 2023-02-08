@@ -120,6 +120,6 @@ spyEls.forEach(function (spyEl) {
     triggerElement: spyEl, // set elements to watch
     triggerHook: 0.8, // location of view port
   })
-    .setClassToggle(spyEl, "show") // add class "show"
+    .setClassToggle(spyEl, "show") // add class 'show'
     .addTo(new ScrollMagic.Controller());
 });
