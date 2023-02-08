@@ -25,8 +25,10 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 - Sliding images and notice.
 - Toggle button.
 <div align="center">
-<img width = '300px' src ="./images/gif2.gif" alt = "pagination">
+<img width = '400px' src ="./images/gif2.gif" alt = "pagination">
 </div>
+
+- Background youtube videos.
 
 ## 📑 Initial Settings
 
