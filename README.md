@@ -311,23 +311,39 @@ For more parameters, Visit the [official site](https://developers.google.com/you
 
 - `gsap.to(element, time, {css objects}` : give time amount animation to given css objects
 
-<h4> 📂 gsap.js </h4>
-- Provides various animation functions.
+<h4> 📂 scrollmagic.js </h4>
+- Provides information abour currently showing features on view port.
 
 </br>
 
 ```html
 <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
-  integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+  src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+  integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 ></script>
 ```
 
-:arrow_forward: I used following functions.
+:arrow_forward: Here's the code I wrote.
 
-- `gsap.to(element, time, {css objects}` : give time amount animation to given css objects
+- <h5>Javascript</h5>
+
+```javascript
+const spyEls = document.querySelectorAll("section.scroll-spy");
+spyEls.forEach(function (spyEl) {
+  new ScrollMagic.Scene({
+    triggerElement: spyEl, // set elements to watch
+    triggerHook: 0.8, // location of view port
+  })
+    .setClassToggle(spyEl, "show") // add class "show"
+    .addTo(new ScrollMagic.Controller());
+});
+```
+
+- `triggerElement` : Elements that we want to watch for.
+- `triggerHook` : Ratio of view port from top to bottom where we want to trigger.
+- `setClassToggle` : Add class `show` to class we triggered.
 
 <h4> 📂 swiper.js </h4>
 - Provides modern sliding animation.
