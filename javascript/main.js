@@ -95,8 +95,20 @@ promotionToggleBtn.addEventListener("click", function () {
 
 // floating object
 
-function floatingObject(selector) {
-  gsap.to(selector, 1, {
-    y: 20, // move to y-axis
+function floatingObject(selector, delay, size) {
+  gsap.to(selector, random(1.5, 2.5), {
+    y: size, // move to y-axis
+    repeat: -1, //  infinite
+    yoyo: true, // repeat backward
+    ease: Power1.easeInOut,
+    delay: random(0, delay),
   });
 }
+
+// generate random float between min and max to 2-digit decimal
+function random(min, max) {
+  return parseFloat((Math.random() * (max - min) + min).toFixed(2));
+}
+floatingObject(".floating1", 1, 15);
+floatingObject(".floating2", 0.5, 15);
+floatingObject(".floating3", 1.5, 20);
