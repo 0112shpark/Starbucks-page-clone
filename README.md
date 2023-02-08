@@ -311,6 +311,24 @@ For more parameters, Visit the [official site](https://developers.google.com/you
 
 - `gsap.to(element, time, {css objects}` : give time amount animation to given css objects
 
+<h4> 📂 gsap.js </h4>
+- Provides various animation functions.
+
+</br>
+
+```html
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+  integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+```
+
+:arrow_forward: I used following functions.
+
+- `gsap.to(element, time, {css objects}` : give time amount animation to given css objects
+
 <h4> 📂 swiper.js </h4>
 - Provides modern sliding animation.
 
