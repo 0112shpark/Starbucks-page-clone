@@ -12,7 +12,7 @@
 
 # :bell: Visit the site
 
-➡️ [<u>Go to Site</u>](https://my-starbucks-clone-proj1.netlify.app/ "Open page")
+➡️ [<u>Go to Site</u>](https://my-starbucks-clone-proj1.netlify.app/ "Open page") / [<u>Velcel Deploy</u>](https://starbucks-page-clone.vercel.app/)
 
 ➡️ [<u>Go to Site with SignIn page implemented</u>](https://my-starbucks-clone-proj1-signin.netlify.app/ "Open page")
 
