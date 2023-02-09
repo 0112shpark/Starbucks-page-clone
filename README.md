@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/49dd7362-65d3-4846-9805-dfe4c9a0b4a1/deploy-status)](https://app.netlify.com/sites/my-starbucks-clone-proj1/deploys)
 
-![Vercel](https://starbucks-page-clone.vercel.app/?app=starbucks-page-clone&style=for-the-badge&logo=false)
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=starbucks-page-clone&style=plastic&logo=false)
 
 # ☕ STARBUCKS Main page Clone Project
 
