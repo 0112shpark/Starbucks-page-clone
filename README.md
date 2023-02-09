@@ -29,6 +29,8 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 </div>
 
 - Background youtube videos.
+- Sliding features when scroll down.
+- Go to Top button.
 
 ## 📑 Initial Settings
 
