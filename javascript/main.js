@@ -31,15 +31,32 @@ window.addEventListener(
         opacity: 0,
         display: "none",
       });
+
+      // show button
+      gsap.to("#to-top", 0.2, {
+        x: 0,
+      });
     } else {
       // show badge
       gsap.to(badgeEl, 0.6, {
         opacity: 1,
         display: "block",
       });
+
+      //hide button
+      gsap.to("#to-top", 0.2, {
+        x: 100,
+      });
     }
   }, 300)
 );
+
+const toTopEl = document.querySelector("#to-top");
+toTopEl.addEventListener("click", function () {
+  gsap.to(window, 0.7, {
+    scrollTo: 0,
+  });
+});
 
 // section part animation
 const fadeEls = document.querySelectorAll(".visual .fade-in");
