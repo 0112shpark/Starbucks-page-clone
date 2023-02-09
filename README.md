@@ -298,10 +298,23 @@ For more parameters, Visit the [official site](https://developers.google.com/you
 
 </br>
 
+- Library for minimum functions.
+
 ```html
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
   integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+```
+
+- Library for `ScrollToPlugin`.
+
+```html
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"
+  integrity="sha512-tQFq+nb/TSS648SDzWbSj0A67t4I1PFzR0U6Oi/yEYFyUbAIwg74SOCbr7t2X1Rn+iln7sYwfh8y+z7p0gddOw=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 ></script>
