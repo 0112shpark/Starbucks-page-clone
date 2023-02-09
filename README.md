@@ -12,6 +12,8 @@
 
 ➡️ [<u>Go to Site</u>](https://my-starbucks-clone-proj1.netlify.app/ "Open page")
 
+➡️ [<u>Go to Site with SignIn page implemented</u>](https://my-starbucks-clone-proj1-signin.netlify.app/ "Open page")
+
 ## 🧐 About
 
 Starbucks homepage clone with HTML, CSS and JavaScript. It supports various transition effects and dynamic features.
@@ -19,7 +21,7 @@ Starbucks homepage clone with HTML, CSS and JavaScript. It supports various tran
 ## 💡Features
 
 - Search icons at right top coner stretches when clicks.
-- Move to Sign in page when click Sign In section. (Not implemented yet)
+- Move to Sign in page when click Sign In section. (<del>Not implemented yet</del>)->[Go to SignIn branch](https://github.com/0112shpark/Starbucks-page-clone/tree/signin)
 - New sections appear when mouse hovers on each main menu section.
 - Badges on right side of page gradually disappears when scroll down.
 - Sliding images and notice.
