@@ -136,3 +136,8 @@ spyEls.forEach(function (spyEl) {
     .setClassToggle(spyEl, "show") // add class 'show'
     .addTo(new ScrollMagic.Controller());
 });
+
+// refresh year
+
+const thisYear = document.querySelector(".this-year");
+thisYear.textContent = new Date().getFullYear();
