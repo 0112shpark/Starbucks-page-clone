@@ -5,7 +5,7 @@
 # ☕ STARBUCKS Main page Clone Project
 
 <div align="center">
-<img width=" 100px" height=100px src ="./images/markdown_logo.png" alt = "logo">
+<img src ="./images/main.gif" alt = "logo">
 </div>
 
 ---
